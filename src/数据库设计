@@ -1,0 +1,11 @@
+create table student(
+      stuid varchar2(10)PRIMARY KEY,
+      username varchar2(20),
+      gender varchar(10), 
+      age varchar(10)
+);
+
+insert into student values('201500756','杨宸','男','20');
+insert into student values('201500755','杨','男','2');
+insert into student values('201500752','杨亚琛','男','21');
+insert into student values('201500751','李芳','女','22');
