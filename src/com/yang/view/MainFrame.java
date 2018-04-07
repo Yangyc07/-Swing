@@ -63,7 +63,6 @@ public class MainFrame extends JFrame implements ActionListener {
     public MainFrame() {
 
         jid = new JTextField("", 8);
-        ;
 
         jp1.setLayout(new FlowLayout());
         jp1.add(lid);
